@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700;900&family=Fraunces:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <!--Font Awesome Icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <section class = "header">
+    <nav>
+      <img src="images/logo.svg" alt ="logo">
+      <i id="menuBtn" onclick = main() class ="fas fa-bars"></i>
+      <i id="closeBtn" onclick = main() class ="fas fa-times-circle"></i>
+
+      <div class="nav-links">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+          <li id ="contact"><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+      <h1>We are creatives</h1>
+      <div class="scrlDown">
+        <a href ="#firstScrllPoint"><img id="firstScrl" src="images/icon-arrow-down.svg" alt ="scroll"></a>  
+      </div>
+  </section>
+  <section class = "transform-brand">
+    <div class="transform-row1">
+      <div class="transform-intro1">
+       <div class ="info one" id="firstScrllPoint">
+        <h2> Transform your<br>
+          brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#">Learn More</a>
+       </div>
+      </div>
+      <div class="transform-image1">
+        <img src="images/desktop/image-transform.jpg" alt ="image1">  
+      </div>
+
+    </div>
+    <div class="transform-row2">
+      <div class="transform-image2">
+        <img src="images/desktop/image-stand-out.jpg" alt ="image2">  
+      </div>
+      <div class="transform-intro2">
+      <div class="info two">
+        <h2> Stand out to the right<br>
+          audience</h2>
+       <p>  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+       </p>
+       <a href="#">Learn More</a>
+      </div>
+      </div>
+    </div>
+    <div class="transform-row3">
+      <div class="transform-image3">
+        <img src="images/desktop/image-graphic-design.jpg" alt ="image2">
+        <div class="infoThree">
+          <h2>Graphic Design</h2>
+          <p>  Great design makes you memorable.<br>
+            We deliver artwork that underscores your brand message<br>and captures potential clients’ attention.
+          </p>
+        </div>
+
+      </div>
+      <div class="transform-image4">
+        <img src="images/desktop/image-photography.jpg" alt ="image2">
+        <div class="infoFour">
+          <h2>Photography</h2>
+          <p> Increase your credibility by getting<br>
+            the most stunning, high-quality photos<br>
+            that improve your business image.
+          </p>
+        </div>  
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="test-row">
+      <div class="test caseOne">
+        <img src="images/image-emily.jpg" alt="emily's image">
+        <p>  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <div>
+          <h5>Emily R.</h5>
+          <h4 class="title">Marketing Director</h4>
+        </div>
+      </div>
+      <div class="test caseTwo">
+        <img src="images/image-thomas.jpg" alt="thomas' image">
+        <p>  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+        <div class="tesTitle1">
+          <h5>Thomas S.</h5>
+          <h4 class="title">Chief Operating Officer</h4>
+        </div>
+      </div class="tesTitle2">
+      <div class="test caseThree">
+        <img src="images/image-jennie.jpg" alt="Jennies image">
+        <p>  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+        <div class="tesTitle3">
+          <h5>  Jennie F.</h5>
+          <h4 class="title"> Business Owner
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class ="footer">
+    <div class="image-display">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt = "display image 1">
+      <img src="images/desktop/image-gallery-orange.jpg" alt = "display image 1">
+      <img src="images/desktop/image-gallery-cone.jpg" alt = "display image 1">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt = "display image 1">
+    </div>
+    <div class="footer-info">
+      <img src="images/logo.svg" alt = "display image 1">
+      <div class="foot-nav">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <img src="images/icon-facebook.svg" alt = "display image 1">
+        <img src="images/icon-instagram.svg" alt = "display image 1">
+        <img src="images/icon-pinterest.svg" alt = "display image 1">
+        <img src="images/icon-twitter.svg" alt = "display image 1">
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Malik Coleman </a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src ="index.js"></script>
+</body>
+</html>
