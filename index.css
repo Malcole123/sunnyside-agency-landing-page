@@ -281,7 +281,7 @@ nav .fas{
 
 }
 
-@media(max-width:768px){
+@media(max-width:962px){
     html{
         overflow-x: hidden;
     }
